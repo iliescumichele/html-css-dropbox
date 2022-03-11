@@ -13,6 +13,10 @@
   float: left;
 }
 
+.float-right{
+  float: right;
+}
+
 .text-centered{
   text-align: center;
 }

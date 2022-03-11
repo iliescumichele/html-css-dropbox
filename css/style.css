@@ -1,0 +1,68 @@
+/* 
+    HEADER
+*/
+header{
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+}
+
+header .logo{
+    margin-left: 20px;
+}
+
+header .logo img{
+    vertical-align: middle;
+}
+
+
+.menu{
+    width: calc(100% - 230px);
+}
+
+header .menu nav li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .menu nav li a{
+    margin: auto 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn{
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 16px;
+    color: white;
+    background-color: #0061ff;
+}
+/* -------------------------------- */
+
+
+
+
+/* 
+    JUMBOTRON
+*/
+/* -------------------------------- */
+
+
+
+/* 
+    MAIN
+*/
+/* -------------------------------- */
+
+
+
+
+
+/* 
+    FOOTER
+*/
+/* -------------------------------- */
