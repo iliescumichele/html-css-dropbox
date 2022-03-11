@@ -29,13 +29,12 @@ header .menu nav li{
 header .menu nav li a{
     margin: auto 20px;
     color: black;
-    font-weight: 500;
     font-size: 18px;
 }
 
 .btn{
     line-height: 20px;
-    font-weight: 500;
+    
     font-size: 18px;
     padding: 5px 16px;
     color: white;
@@ -49,6 +48,9 @@ header .menu nav li a{
 /* 
     JUMBOTRON
 */
+section .jumbo-img  img{
+    
+}
 /* -------------------------------- */
 
 
