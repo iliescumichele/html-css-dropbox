@@ -1,0 +1,70 @@
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.float-left{
+  float: left;
+}
+
+.text-centered{
+  text-align: center;
+}
+
+
+/*
+  DEBUG
+*/
+
+.debg-color{
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 1px solid black;
+}
+
+.container-90{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.h100{
+  height: 100px
+}
+
+.h300{
+  height: 300px
+}
+
+.h500{
+  height: 500px
+}
+
+
+.box-w5{
+  width: calc(100% / 5);
+}
+
+.box-w25{
+  width: calc(100% / 4);
+}
+
+.box-w50{
+  width: 50%;
+}
+
+.box-w60{
+  width: 60%;
+}
+
+.box-w40{
+  width: 40%;
+}
+
+.box-w33{
+  width: calc(100% / 3);
+}
