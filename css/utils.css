@@ -5,8 +5,15 @@
 }
 
 .container{
+  width: 75%;
+  margin: 0 auto;
+  max-width: 1450px;
+}
+
+.container-jumbo-foot{
   width: 80%;
   margin: 0 auto;
+  max-width: 1650px;
 }
 
 .float-left{
@@ -21,6 +28,10 @@
   text-align: center;
 }
 
+ul li{
+  list-style: none;
+}
+
 
 /*
   DEBUG
@@ -31,10 +42,7 @@
   border: 1px solid black;
 }
 
-.container-90{
-  width: 90%;
-  margin: 0 auto;
-}
+
 
 .h100{
   height: 100px

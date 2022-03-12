@@ -21,7 +21,6 @@ header .logo img{
 }
 
 header .menu nav li{
-    list-style: none;
     display: inline-block;
     vertical-align: middle;
 }
@@ -34,7 +33,6 @@ header .menu nav li a{
 
 .btn{
     line-height: 20px;
-    
     font-size: 18px;
     padding: 5px 16px;
     color: white;
@@ -48,8 +46,42 @@ header .menu nav li a{
 /* 
     JUMBOTRON
 */
+section.jumbotron{
+    background-color: #b4d0e7;
+}
+
+section .container-jumbo-foot{
+    position: relative;
+    top: 75px;
+}
+ 
+h1{
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+section .col-sx-jumbo-text{
+    width: 30%
+}
+
+.col-sx-jumbo-text .btn-free-try{
+    padding: 30px 0 15px;
+}
+
+.col-sx-jumbo-text a i{
+    color: #000000;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+section .jumbo-img{
+    width: 66%;
+    margin-left: 4%;
+}
+
 section .jumbo-img  img{
-    
+    width: 100%;
 }
 /* -------------------------------- */
 
@@ -58,6 +90,29 @@ section .jumbo-img  img{
 /* 
     MAIN
 */
+main .business-plan{
+    padding-top: 170px;
+}
+
+.plans-title h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plans-title .period-plan{
+    margin: 0 0 25px;
+}
+
+.plans-title .period-plan label{
+    margin: 0 25px 0 5px;
+}
+
+
+.list-tools ul li::before{
+    content: "\2714";
+    color: #005fff;
+}
+
 /* -------------------------------- */
 
 
