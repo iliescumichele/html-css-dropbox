@@ -113,6 +113,16 @@ main .business-plan{
     color: #005fff;
 }
 
+
+/* 
+    MID SECTION
+*/
+section.find-partner .box-img{
+    width: 50%;
+}
+section.find-partner .box-img img{
+    width: 100%
+}
 /* -------------------------------- */
 
 
