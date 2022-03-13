@@ -330,10 +330,83 @@ section.find-partner .box-img img{
     border: 15px solid rgba(255, 255, 255, 0.329);
 }
 /* /teams using dropbox */
+
+/* sezione grande titolo e button */
+.buy-dropbox-business{
+    height: 300px;
+    background-color: #b4d0e7;
+}
+
+.dropbox-business{
+    padding-top: 125px;
+}
+
+.dropbox-business .float-left{
+    width: 40%;
+}
+
+.dropbox-business h2{
+    color: #61082b;
+}
+
+.dropbox-business a{
+    padding: 10px 60px;
+    border: none;
+}
+/* /sezione grande titolo e button */
 /* -------------------------------- */
 
 
 /* 
     FOOTER
 */
+footer{
+    background-color: #000000;
+}
+
+.col-footer, .col-dx-foot, .col-sx-foot{
+    width: calc((100% / 5) - 16px);
+}
+
+.col-footer{
+    margin: 0 10px;
+    padding-bottom: 60px;
+}
+
+.col-sx-foot{
+    margin-right: 10px;
+    padding-bottom: 60px;
+}
+
+.col-dx-foot{
+    margin-left: 10px;
+    padding-bottom: 60px;
+}
+
+footer .container-jumbo-foot, footer a{
+    color: white;
+}
+
+footer h4{
+    margin: 60px 0 20px;
+}
+
+footer a{
+    line-height: 25px;
+    font-size: 12px;
+}
+
+footer hr{
+    width: 50px;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .float-left:last-child{
+    color: #5a5a5a;
+    padding: 35px 0;
+}
 /* -------------------------------- */
