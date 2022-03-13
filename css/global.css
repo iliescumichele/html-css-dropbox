@@ -12,3 +12,28 @@ body{
 a{
   text-decoration: none;
 }
+
+h3{
+  font-weight: 800;
+}
+
+.btn{
+  line-height: 20px;
+  font-size: 18px;
+  padding: 5px 16px;
+  color: white;
+  background-color: #0061ff;
+}
+
+.btn-clean{
+  line-height: 20px;
+  font-size: 18px;
+  padding: 5px 16px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+ul li{
+  list-style: none;
+}

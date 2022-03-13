@@ -30,14 +30,6 @@ header .menu nav li a{
     color: black;
     font-size: 18px;
 }
-
-.btn{
-    line-height: 20px;
-    font-size: 18px;
-    padding: 5px 16px;
-    color: white;
-    background-color: #0061ff;
-}
 /* -------------------------------- */
 
 
@@ -107,19 +99,109 @@ main .business-plan{
     margin: 0 25px 0 5px;
 }
 
+.business-bottom-col{
+    width: 100%;
+}
+
+.business-col hr{
+    width: 50px;
+}
+.list-tools h4{
+    margin: 40px 0 5px;
+}
+
+.list-tools ul li{
+    padding: 10px 0;
+}
 
 .list-tools ul li::before{
     content: "\2714";
     color: #005fff;
 }
 
+main .business-plan .business-col{
+    width: calc((100% / 3) - (100px / 3));
+    height: 900px;
+    margin-bottom: 30px;
+}
+
+main .business-plan .center-coll{
+    margin: 0 50px;
+}
+
+.col-descr{
+    padding: 30px;
+}
+
+.cost{
+    padding: 15px 0 10px;
+}
+
+.period{
+    color: #60717e;
+}
+
+.numbr-accounts, .storage, .tools-plan{
+    margin: 20px 0;
+}
+
+.business-col .btn{
+    margin-top: 35px;
+    display: block;
+}
+
+.business-col .free-try p{
+    line-height: 75px;
+}
+
+.business-col .link-buy-now{
+    text-decoration: underline;
+    color: #005fff;
+}
+
+.type-plan{
+    padding: 10px;
+    border-bottom: 1px solid #d4d4d7;
+}
+
+.business-col, .business-bottom-col{
+    border: 1px solid #d4d4d7;
+}
+
+.business-bottom-col .col-descr .btn{
+    padding: 5px 80px;
+}
+
+.business-bottom-col .col-descr h4{
+    margin: 20px 0 30px 0; 
+}
+/* -------------------------------- */
+
+
+
 
 /* 
     MID SECTION
 */
-section.find-partner .box-img{
-    width: 50%;
+section.find-partner{
+    margin: 100px 0;
 }
+
+section.find-partner .box-img{
+    width: 60%;
+}
+
+.box-text-partner{
+    padding: 80px  40px 0 40px;
+    width: 40%;
+    line-height: 27px;
+}
+
+.box-text-partner p{
+    margin: 25px 0;
+    line-height: 23px;
+}
+
 section.find-partner .box-img img{
     width: 100%
 }
