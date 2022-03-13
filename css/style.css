@@ -338,7 +338,7 @@ section.find-partner .box-img img{
 }
 
 .dropbox-business{
-    padding-top: 125px;
+    padding-top: 100px;
 }
 
 .dropbox-business .float-left{
@@ -355,6 +355,17 @@ section.find-partner .box-img img{
 }
 /* /sezione grande titolo e button */
 /* -------------------------------- */
+
+/* SECTION FREQUENT QUESTIONS */
+.questions-answers hr{
+    margin: 30px 0;
+}
+
+.questions-answers .container{
+    padding: 100px 0;
+}
+/* /SECTION FREQUENT QUESTIONS */
+
 
 
 /* 
