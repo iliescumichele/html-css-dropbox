@@ -28,6 +28,11 @@
   text-align: center;
 }
 
+.opacity-hover-btn:hover{
+  opacity: 0.80;
+}
+
+
 
 /*
   DEBUG
@@ -75,3 +80,5 @@
 .box-w33{
   width: calc(100% / 3);
 }
+
+

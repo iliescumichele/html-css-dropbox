@@ -2,22 +2,27 @@
     HEADER
 */
 header{
+    position: fixed;
     height: 80px;
-    line-height: 80px;
+    line-height: 78px;
     background-color: white;
+    width: 100%;
+    z-index: 999;
 }
 
 header .logo{
     margin-left: 20px;
+}
+header .begin-btn{
+    margin-right: 20px;
 }
 
 header .logo img{
     vertical-align: middle;
 }
 
-
-.menu{
-    width: calc(100% - 230px);
+header .menu{
+    width: 80%;
 }
 
 header .menu nav li{
@@ -29,6 +34,19 @@ header .menu nav li a{
     margin: auto 20px;
     color: black;
     font-size: 18px;
+}
+
+nav .nav-why-links{
+    width: 50%;
+}
+
+nav .nav-support-links{
+    text-align: right;
+    width: 50%;
+}
+
+nav li:hover{
+    border-bottom: 4px solid black;
 }
 /* -------------------------------- */
 
@@ -333,16 +351,16 @@ section.find-partner .box-img img{
 
 /* sezione grande titolo e button */
 .buy-dropbox-business{
-    height: 300px;
+    height: 250px;
     background-color: #b4d0e7;
 }
 
 .dropbox-business{
-    padding-top: 100px;
+    vertical-align: middle;
 }
 
 .dropbox-business .float-left{
-    width: 40%;
+    width: 50%;
 }
 
 .dropbox-business h2{
@@ -363,6 +381,23 @@ section.find-partner .box-img img{
 
 .questions-answers .container{
     padding: 100px 0;
+}
+
+.question p{
+    padding-top: 30px;
+    display: none;
+}
+
+.question i{
+    object-position: right;
+}
+
+.question:hover p{
+    display: block;
+}
+
+.question:hover i{
+    transform: rotate(180deg);
 }
 /* /SECTION FREQUENT QUESTIONS */
 
