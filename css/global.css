@@ -51,6 +51,18 @@ ul li{
   display: none;
 }
 
+
+
+
 li:hover .nav-hover {
   display: block;
 } */
+
+.nav-hover {
+  position: absolute;
+}
+
+
+header .menu nav .nav-hover li {
+  display: block;
+}

@@ -47,7 +47,7 @@ nav .nav-support-links{
     width: 50%;
 }
 
-nav ul li:hover{
+nav .nav-support-links > li:hover{
     border-bottom: 2px solid black;
 }
 
