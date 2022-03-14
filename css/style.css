@@ -8,6 +8,8 @@ header{
     background-color: white;
     width: 100%;
     z-index: 999;
+    top: 0;
+    left: 0;
 }
 
 header .logo{
@@ -45,9 +47,11 @@ nav .nav-support-links{
     width: 50%;
 }
 
-nav li:hover{
-    border-bottom: 4px solid black;
+nav ul li:hover{
+    border-bottom: 2px solid black;
 }
+
+
 /* -------------------------------- */
 
 
@@ -57,6 +61,7 @@ nav li:hover{
     JUMBOTRON
 */
 section.jumbotron{
+    margin-top: 80px;
     background-color: #b4d0e7;
 }
 
@@ -375,21 +380,27 @@ section.find-partner .box-img img{
 /* -------------------------------- */
 
 /* SECTION FREQUENT QUESTIONS */
-.questions-answers hr{
-    margin: 30px 0;
+.questions-answers .question, .questions-answers h2{
+    padding: 30px 0;
+    border-bottom: 2px solid #d0d0d4;
 }
 
 .questions-answers .container{
     padding: 100px 0;
 }
 
+.question .float-left{
+    width: 98%;
+}
+
 .question p{
+    color: #627281;
     padding-top: 30px;
     display: none;
 }
 
 .question i{
-    object-position: right;
+    text-align: right;
 }
 
 .question:hover p{
