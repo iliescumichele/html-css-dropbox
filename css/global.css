@@ -44,24 +44,28 @@ h4{
 }
 
 ul li{
-  list-style: none;
+  list-style: none outside;
+  
 }
 
 /* .nav-hover{
   display: none;
-}
-
-
-
+} */
 
 li:hover .nav-hover {
   display: block;
-} */
+}
 
 .nav-hover {
   position: absolute;
+  left:0;
+  top:79px;
 }
 
+
+.nav-support-links > li {
+  position: relative;
+}
 
 header .menu nav .nav-hover li {
   display: block;

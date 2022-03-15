@@ -47,10 +47,23 @@ nav .nav-support-links{
     width: 50%;
 }
 
+nav ul li:hover{
+    border-bottom: 2px solid black;
+}
+
+/* nav .nav-support-links > li:hover{
+    border-bottom: 2px solid black;
+}
+
 nav .nav-support-links > li:hover{
     border-bottom: 2px solid black;
 }
 
+.nav-hover{
+    background-color: #fbfbfb;
+    width: 200%;
+    float: none;
+} */
 
 /* -------------------------------- */
 
@@ -136,16 +149,23 @@ main .business-plan{
 
 .list-tools ul li{
     padding: 10px 0;
+    margin: 0 0 10px 15px;
 }
 
-.list-tools ul li::before{
+.list-tools ul li i{
+    color: #0061ff;
+    margin-left: -15px;
+}
+
+
+/* .list-tools ul li::before{
     content: "\2714";
     color: #005fff;
-}
+} */
 
 main .business-plan .business-col{
     width: calc((100% / 3) - (100px / 3));
-    height: 900px;
+    height: 1000px;
     margin-bottom: 30px;
 }
 
@@ -273,7 +293,6 @@ section.find-partner .box-img img{
     color: #005fff;
 }
 
-
 .all-teams{
     height: 25vw;
 }
@@ -287,12 +306,12 @@ section.find-partner .box-img img{
     height: 100%;
     padding: 50px;
     width: 50%;
-    overflow: scroll;
+    overflow-y: auto;
     background-color: #f5f5f5;
 }
 
-.col-teams-centre::-webkit-scrollbar {
-    display: none;
+.col-teams-centre p{
+    font-size: 20px;
 }
 
 .col-teams-centre .logo-team img{
